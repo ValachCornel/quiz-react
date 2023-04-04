@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Questions from './components/Questions';
+import Results from './components/Results';
+
 
 function App() {
+  const[score, setScore] = useState(0);
+  const[showResult, setResult] = useState(false);
+  const[currentQuestion, setCurrentQuestion] = useState(0);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {showResult ?
+        <Results score={score} setScore={setScore} setResult={setResult} setCurrentQuestion={setCurrentQuestion}/>
+      :
+        <Questions currentQuestion={currentQuestion} setCurrentQuestion={setCurrentQuestion} score={score} setScore={setScore} setResult={setResult}/>
+      }
     </div>
   );
 }

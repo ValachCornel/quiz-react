@@ -1,0 +1,42 @@
+[
+    {
+        "question": "What is the capital of Spain?",
+        "options": ["Seville", "Barcelona", "Madrid", "Valencia"],
+        "answer": "Madrid"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "options": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Claude Monet"],
+        "answer": "Leonardo da Vinci"
+    },
+    {
+        "question": "What is the smallest planet in our solar system?",
+        "options": ["Earth", "Mars", "Venus", "Mercury"],
+        "answer": "Mercury"
+    },
+    {
+        "question": "Who directed the movie 'Jurassic Park'?",
+        "options": ["Steven Spielberg", "James Cameron", "Quentin Tarantino", "Martin Scorsese"],
+        "answer": "Steven Spielberg"
+    },
+    {
+        "question": "What is the national animal of Australia?",
+        "options": ["Emu", "Koala", "Kangaroo", "Platypus"],
+        "answer": "Kangaroo"
+    },
+    {
+        "question": "Which planet is known as the 'Red Planet'?",
+        "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+        "answer": "Mars"
+    },
+    {
+        "question": "Who wrote the book 'The Great Gatsby'?",
+        "options": ["F. Scott Fitzgerald", "Ernest Hemingway", "William Faulkner", "John Steinbeck"],
+        "answer": "F. Scott Fitzgerald"
+    },
+    {
+        "question": "What is the highest mountain in Africa?",
+        "options": ["Mount Stanley", "Mount Kenya", "Mount Kilimanjaro", "Mount Meru"],
+        "answer": "Mount Kilimanjaro"
+    }
+]
